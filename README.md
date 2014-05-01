@@ -17,6 +17,10 @@ Chatta is an open source commenting system.
 - Easy Import/Export existing comments
 	- Ability to migrate and __remove all your data__
 
+### Other
+- Pull in tweets
+- Pingbacks
+
 ### Development
 - Open Source
 - Full documentation
