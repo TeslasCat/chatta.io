@@ -1,0 +1,7 @@
+#cta form input[type=email] {
+    width: 400px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    background: white;
+}
