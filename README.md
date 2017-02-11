@@ -5,7 +5,7 @@ Rebus is an open source commenting system.
 
 ## Features
 
-## Usage
+### Usage
  - Short embed code
  - Non-JS link to view full comments
  - Conversation grouped by URL or option data-conversation tag
@@ -45,7 +45,7 @@ Here is a list of alternative systems.
 
 ## License
 Chatta is an open source commenting system.
-Copyright (C) 2014 Tesla's Cat
+Copyright (C) 2017 Tesla's Cat
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
