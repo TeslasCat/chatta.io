@@ -1,0 +1,38 @@
+.rebus-container {
+    background: #eee;
+    padding: 1em;
+}
+
+.rebus-container .rebus-comment {
+    margin-top: 1em;
+    background: white;
+    padding: 1em;
+    overflow: hidden;
+}
+
+.rebus-container .rebus-comment:first-of-type {
+    margin-top: 0;
+}
+
+.rebus-container .rebus-comment img {
+    float: left;
+    width: 45px;
+}
+
+.rebus-container .rebus-comment > div {
+    margin-left: 60px;
+}
+
+.rebus-container .rebus-comment > div > h4 {
+    margin; 0;
+    margin-bottom: 0.3em;
+    line-height: 1.1em;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+.rebus-container .rebus-comment > div > .rebus-since {
+    font-size: 0.8em;
+    colot: #ddd;
+    float: right;
+}

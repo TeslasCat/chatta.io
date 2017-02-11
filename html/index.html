@@ -31,7 +31,7 @@
 						<ul>
 							<li><a href="#intro" class="active">Introduction</a></li>
 							<li><a href="#features">Features</a></li>
-							<!-- <li><a href="#second">Second Section</a></li> -->
+							<li><a href="#demo">Demo</a></li>
 							<li><a href="#cta">Get Started</a></li>
 						</ul>
 					</nav>
@@ -87,13 +87,13 @@
 							</section>
 
 						<!-- Second Section -->
-							<!-- <section id="second" class="main special">
+							<section id="demo" class="main special">
 								<header class="major">
-									<h2>Ipsum consequat</h2>
+									<h2>Demo</h2>
 									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
 									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
 								</header>
-								<ul class="statistics">
+<!-- 								<ul class="statistics">
 									<li class="style1">
 										<span class="icon fa-code-fork"></span>
 										<strong>5,120</strong> Etiam
@@ -114,14 +114,13 @@
 										<span class="icon fa-diamond"></span>
 										<strong>1,024</strong> Nullam
 									</li>
-								</ul>
-								<p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
+								</ul> -->
 								<footer class="major">
 									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn More</a></li>
+										<li><a href="/demo" class="button big special">View demo</a></li>
 									</ul>
 								</footer>
-							</section> -->
+							</section>
 
 						<!-- Get Started -->
 							<section id="cta" class="main special">
@@ -134,7 +133,7 @@
 										<form>
 											<input type="email" name="signup-email" placeholder="e-mail" />
 											<ul class="actions">
-												<li><a href="#" class="button special get-code">Get Code</a></li>
+												<li><a href="#" class="button big special get-code">Get Code</a></li>
 												<li><a href="#" class="button">View Docs</a></li>
 											</ul>
 										</form>
@@ -142,18 +141,23 @@
 
 									<div class="cta-embed-code">
 										<p>Add the following code anywhere in your HTML page or template where you want your comment feed to appear.</p>
-										<pre><code>&lt;script&gt;
-	(function(w,d,s,g,js,fjs){
-	  g=w.gapi||(w.gapi={});g.analytics={q:[],ready:function(cb){this.q.push(cb)}};
-	  js=d.createElement(s);fjs=d.getElementsByTagName(s)[0];
-	  js.src='https://apis.google.com/js/platform.js';
-	  fjs.parentNode.insertBefore(js,fjs);js.onload=function(){g.load('analytics')};
-	}(window,document,'script'));
+										<pre><code>&lt;div class="rebus-container"&gt;&lt;noscript&gt;Javascript is required to view embedded comments. &lt;a href='#'>Click here&lt;/a&gt; to view comments.&lt;/noscript&gt;&lt;/div&gt;
+&lt;script type="text/javascript"&gt;
+	(function() {
+	    var s = document.createElement('script');
+	    s.type = "text/javascript";
+	    s.async = true;
+	    s.src = "//rebus.0x6c77.co.uk/embed/rebus.js"; 
+	    var fs = document.getElementsByTagName('script')[0];
+	    fs.parentNode.insertBefore(s, fs);
+	})();
 &lt;/script&gt;</code></pre>
 										<p>No configuration is required and will work instantly but there are lots of options in the docs to tweak styles and features.</p>
 									</div>
 								</footer>
 							</section>
+
+							
 
 					</div>
 
