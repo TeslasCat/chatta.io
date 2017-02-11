@@ -50,7 +50,7 @@
 										adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
 										Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
 										<ul class="actions">
-											<li><a href="#features" class="button">Learn More</a></li>
+											<li><a href="#features" class="button scrolly">Learn More</a></li>
 										</ul>
 									</div>
 									<span class="image"><img src="https://www.invisionapp.com/subsystems/landing_old/assets/img/tour/creative-decisions.png" alt="" style="opacity: 0.8" /></span>
@@ -81,7 +81,7 @@
 								</ul>
 								<footer class="major">
 									<ul class="actions">
-										<li><a href="#cta" class="button">Embed now</a></li>
+										<li><a href="#cta" class="button scrolly">Embed now</a></li>
 									</ul>
 								</footer>
 							</section>
@@ -127,16 +127,31 @@
 							<section id="cta" class="main special">
 								<header class="major">
 									<h2>Get started</h2>
-									<p>Enter your e-mail below to instantly get your unique embed code. No configuration required.</p>
 								</header>
 								<footer class="major">
-									<form>
-										<input type="email" name="signup-email" placeholder="e-mail" />
-										<ul class="actions">
-											<li><a href="generic.html" class="button special">Get Code</a></li>
-											<li><a href="generic.html" class="button">View Docs</a></li>
-										</ul>
-									</form>
+									<div class="cta-form">
+										<p>Enter your e-mail below to instantly get your unique embed code. No configuration required.</p>
+										<form>
+											<input type="email" name="signup-email" placeholder="e-mail" />
+											<ul class="actions">
+												<li><a href="#" class="button special get-code">Get Code</a></li>
+												<li><a href="#" class="button">View Docs</a></li>
+											</ul>
+										</form>
+									</div>
+
+									<div class="cta-embed-code">
+										<p>Add the following code anywhere in your HTML page or template where you want your comment feed to appear.</p>
+										<pre><code>&lt;script&gt;
+	(function(w,d,s,g,js,fjs){
+	  g=w.gapi||(w.gapi={});g.analytics={q:[],ready:function(cb){this.q.push(cb)}};
+	  js=d.createElement(s);fjs=d.getElementsByTagName(s)[0];
+	  js.src='https://apis.google.com/js/platform.js';
+	  fjs.parentNode.insertBefore(js,fjs);js.onload=function(){g.load('analytics')};
+	}(window,document,'script'));
+&lt;/script&gt;</code></pre>
+										<p>No configuration is required and will work instantly but there are lots of options in the docs to tweak styles and features.</p>
+									</div>
 								</footer>
 							</section>
 

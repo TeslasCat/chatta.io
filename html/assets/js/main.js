@@ -134,6 +134,18 @@
 				speed: 1000
 			});
 
+
+
+		// Get embed code
+		$('#cta .cta-form .get-code').on('click', function(e) {
+			e.preventDefault();
+
+			$('#cta .cta-form').fadeOut(function() {
+				$(this).siblings().fadeIn();
+			});
+		});
+
+
 	});
 
 })(jQuery);
