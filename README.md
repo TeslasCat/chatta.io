@@ -1,15 +1,20 @@
-chatta.io
+rebus.io
 =========
-Chatta is an open source commenting system.
+Rebus is an open source commenting system.
 
 
 ## Features
+
+## Usage
+ - Short embed code
+ - Non-JS link to view full comments
+ - Conversation grouped by URL or option data-conversation tag
 
 ### User
 - Social network login (Open ID, Facebook, Twitter)
 - Threaded comments
 - Quote/Reply
-- Easy Anonymous login. 
+- Easy Anonymous login
 
 ### Admin
 - Anti Spam via [Akismet](http://akismet.com/)
